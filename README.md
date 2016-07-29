@@ -1,11 +1,11 @@
 ### Installation
 
-Clone or download the repository and move the "GoogleMaps" folder into your "site/addons" folder.
+Clone or download the repository and move the "GoogleMaps" folder into your `site/addons` folder.
 
 
 ### Setup
 
-Add your Google Maps JS API Key to the settings page (".../addons/google-maps/settings")
+Add your Google Maps JS API Key to the settings page `../cp/addons/google-maps/settings`
 
 
 ### Usage
@@ -18,9 +18,10 @@ You can now use google maps like so:
 
 ### Options
 
-The following options are avaiable
+The following options are available
 
 - address
 - height
 - width
 - zoom (The level of zoom)
+
