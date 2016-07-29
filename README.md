@@ -1,6 +1,3 @@
-TODO
-
-
 ### Installation
 
 Clone or download the repository and move the "GoogleMaps" folder into your "site/addons" folder.
