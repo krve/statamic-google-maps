@@ -20,20 +20,12 @@ class GoogleMapsTags extends Tags
         $height = $this->getParam('height', '300px');
         $width = $this->getParam('width', 'auto');
 
+        $map_id = 'gmap' . uniqid();
+
         if ($api_key == 'YOUR_API_KEY') {
             Log::error("GoogleMapsAddon: No api key specified");
         }
 
-        return $this->view('partials.map', compact('api_key', 'zoom', 'address', 'height', 'width'));
-    }
-
-    /**
-     * The {{ google_maps:example }} tag
-     *
-     * @return string|array
-     */
-    public function example()
-    {
-        //
+        return $this->view('partials.map', compact('api_key', 'zoom', 'address', 'height', 'width', 'map_id'));
     }
 }
