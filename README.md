@@ -25,3 +25,8 @@ The following options are available
 - width
 - zoom (The level of zoom)
 
+
+### Contribution
+
+Feel free to submit pull requests if you have any ideas on how to improve the addon.
+
