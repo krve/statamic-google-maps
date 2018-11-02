@@ -33,6 +33,9 @@ You can add your own markers to the map using the following syntax
 ```
 The `;` represents a split. Use this if you have multiple markers.
 
+### Getting an API key
+You can find Google's own guide for getting an API key here: [https://developers.google.com/maps/documentation/javascript/get-api-key](https://developers.google.com/maps/documentation/javascript/get-api-key)
+
 
 ### Contribution
 
